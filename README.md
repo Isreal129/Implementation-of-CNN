@@ -24,8 +24,8 @@ In the EarlyStoppingCallback change define the on_epoch_end funtion and define t
 Train the model
 ### PROGRAM:
 
-### Name:A.ARUVI.
-### Register Number:212222230014.
+### Name:ISREAL MOSES B.
+### Register Number:212221040060.
 ### Importing Libraries:
 ```
 import os
@@ -85,7 +85,7 @@ def reshape_and_normalize(images):
 # Apply your function
 training_images = reshape_and_normalize(training_images)
 
-print('Name: A.ARUVI.          RegisterNumber: 212222230014.         \n')
+print('Name: ISREAL MOSES B.          RegisterNumber: 212221040060.         \n')
 print(f"Maximum pixel value after normalization: {np.max(training_images)}\n")
 print(f"Shape of training set after reshaping: {training_images.shape}\n")
 print(f"Shape of one image after reshaping: {training_images[0].shape}")
@@ -109,7 +109,7 @@ class EarlyStoppingCallback(tf.keras.callbacks.Callback):
             # Stop training once the above condition is met
             self.model.stop_training=True
             print("\nReached 98% accuracy so cancelling training!")
-print('Name: A.ARUVI.            Register Number: 212222230014.        \n')
+print('Name: ISREAL MOSES B.            Register Number: 212221040060.        \n')
 ### END CODE HERE ###
 ```
 ### GRADED FUNCTION: convolutional_model:
